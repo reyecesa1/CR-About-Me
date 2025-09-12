@@ -418,6 +418,7 @@
             position: relative;
         }
         
+        /* FIXED PROFILE IMAGE STYLES */
         .profile-img {
             width: 100%;
             max-width: 380px;
@@ -433,21 +434,10 @@
             margin-bottom: 40px;
             border: 5px solid transparent;
             background: linear-gradient(45deg, var(--primary), var(--secondary));
-            -webkit-mask: 
-                linear-gradient(#fff 0 0) content-box, 
-                linear-gradient(#fff 0 0);
-            -webkit-mask-composite: xor;
-            mask-composite: exclude;
+            padding: 5px;
+            box-sizing: border-box;
         }
         
-        .profile-img img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 15px;
-        }
-        
-        /* NEW STYLE FOR THE IMAGE */
         .profile-img img {
             width: 100%;
             height: 100%;
@@ -1119,7 +1109,7 @@
                 </div>
                 <div class="about-image">
                     <div class="profile-img">
-                        <!-- Updated with a profile image -->
+                        <!-- Fixed profile image with correct URL and no white background -->
                         <img src="https://raw.githubusercontent.com/reyecesa1/CR-About-Me/main/profile.jpg" alt="Cesar Reyes - Marketing & AI Professional">
                     </div>
                 </div>
@@ -1682,18 +1672,3 @@
     </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
