@@ -1,3 +1,4 @@
+<img width="1350" height="596" alt="About me" src="https://github.com/user-attachments/assets/9ead69a4-6cfe-4626-8bb8-2ddeabca1818" />
 # Cesar Reyes - Professional Portfolio
 
 A modern, responsive, and interactive personal portfolio website showcasing my expertise in Marketing, AI, and Data Analytics. Designed to present my professional background, skills, and projects in a clean, engaging format.
